@@ -37,13 +37,61 @@
 
 <p>b u i <span style="text-decoration: underline;">underlined</span></p>
 
-<a href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Creating_hyperlinks">Introduction_to_HTML</a>
-<br>
 <a href="https://www.google.com" title="the title for hyperlink">google</a>
 
 <a href="https://www.mozilla.org/en-US/">
-    <img src="mozilla-image.png" alt="mozilla logo that links to the mozilla homepage">
+    <img src="images/firefox.png" alt="mozilla logo that links to the mozilla homepage">
 </a>
+
+<p title="title for p" id="url_paths">url and paths
+<a href="dir1/page1.html">go to page 1</a>
+</p>
+
+<p>document fragments: <a href="#url_paths">url paths</a> <a href="dir1/page1.html#id1">#mailling address</a></p>
+
+<div title="links best practices">
+<p><a href="http://www.example.com/large-report.pdf">
+    Download the sales report (PDF, 10MB)
+</a></p>
+
+<p><a href="http://www.example.com/video-stream/" target="_blank">
+    Watch the video (stream opens in separate tab, HD quality)
+</a></p>
+
+<p><a href="http://www.example.com/car-game">
+    Play the car game (requires Flash)
+</a>
+</p>
+
+    <a href="https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US"
+       download="firefox-latest-64bit-installer.exe">
+       Download Latest Firefox for Windows (64-bit) (English, US)
+    </a>
+<br>
+    <a href="mailto:nowhere@mozilla.com?cc=a@google.com&subject=_subject&body=_body">Send email to nowhere</a>
+</div>
+
+<div title="description lists">
+    <dl>
+        <dt>description term 1</dt>
+        <dd>description definition1</dd>
+        <dt>description term 2</dt>
+        <dd>description definition1</dd>
+        <dd>description definition2</dd>
+    </dl>
+</div>
+
+<div title="block quote">
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>
+            <code>_code data</code>
+        </p>
+    </blockquote>
+    <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+        <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
+            Quotation Element</em>) indicates that the enclosed text is an extended quotation.</p>
+    </blockquote>
+</div>
 
 </body>
 </html>
